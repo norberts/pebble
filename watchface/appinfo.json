@@ -1,0 +1,18 @@
+{
+  "uuid": "34d90040-75ec-4d4e-8413-c9a64571b244",
+  "shortName": "watchface",
+  "longName": "watchface",
+  "companyName": "emvisys",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt", "chalk"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
