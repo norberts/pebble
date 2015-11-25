@@ -18,5 +18,11 @@ all:
 clean:
 	pebble clean
 
-run: all
+install: all
+	pebble install --phone 10.0.0.134
+
+emu: all
 	pebble install --emulator basalt
+
+log:
+	pebble logs
